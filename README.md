@@ -21,3 +21,10 @@ window:Divider("I'm a divider!")
 ```lua
 local sectionA = window:Section("Test Elements")
 ```
+# making a button
+
+```lua
+sectionA:Button("Click me!", function()
+   print("Button clicked.")
+end)
+```
