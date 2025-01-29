@@ -9,3 +9,9 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolM
 ```lua
 local window = library:init("Titlebar", true, Enum.KeyCode.RightShift, true)
 ```
+
+# making a divider
+
+```lua
+window:Divider("I'm a divider!")
+```
