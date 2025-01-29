@@ -52,7 +52,17 @@ end)
 # making a notfaction
 
 ```lua
-sectionB:Button("Temporary Notification", function()
+sectionA:Button("Temporary Notification", function()
    window:TempNotify("Be careful!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+```
+
+# making a notfaction with a button
+
+```lua
+sectionA:Button("Notification 1", function() window:Notify("Hello!", "I am notification", "Button1", "rbxassetid://12608259004",
+   function()
+       print(1)
+   end)
 end)
 ```
