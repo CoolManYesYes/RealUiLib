@@ -48,3 +48,11 @@ sectionA:TextField("Enter text here!", "Enter text here...", function(a)
    print(a)
 end)
 ```
+
+# making a notfaction
+
+```lua
+sectionB:Button("Temporary Notification", function()
+   window:TempNotify("Be careful!", "We are going to beat you up.", "rbxassetid://12608259004")
+end)
+```
