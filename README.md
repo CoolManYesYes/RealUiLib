@@ -15,3 +15,9 @@ local window = library:init("Titlebar", true, Enum.KeyCode.RightShift, true)
 ```lua
 window:Divider("I'm a divider!")
 ```
+
+# making a section
+
+```lua
+local sectionA = window:Section("Test Elements")
+```
