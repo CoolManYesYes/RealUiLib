@@ -41,3 +41,10 @@ sectionA:Switch("Switch me!", false, function(a)
    print(a)
 end)
 ```
+# making a textbox
+
+```lua
+sectionA:TextField("Enter text here!", "Enter text here...", function(a)
+   print(a)
+end)
+```
