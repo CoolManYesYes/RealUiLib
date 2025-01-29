@@ -28,3 +28,9 @@ sectionA:Button("Click me!", function()
    print("Button clicked.")
 end)
 ```
+
+# making a label
+
+```lua
+sectionA:Label("Lorem ipsum dolor sit amet.")
+```
