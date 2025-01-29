@@ -34,3 +34,10 @@ end)
 ```lua
 sectionA:Label("Lorem ipsum dolor sit amet.")
 ```
+# making a toggle
+
+```lua
+sectionA:Switch("Switch me!", false, function(a)
+   print(a)
+end)
+```
