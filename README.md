@@ -12,7 +12,7 @@ Creates a new library window.
 **Note**: You should only call this once in your script.
 **Example Usage**:
 ```lua
-local Atlas = loadstring(game:HttpGet("https://siegehub.net/Atlas.lua"))()
+local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/UI-Libraries/refs/heads/main/Atlas%20UI%20Library/source.lua"))()
 
 local UI = Atlas.new({
     Name = "My Script"; -- script name (required)
